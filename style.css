@@ -1,3 +1,9 @@
+:root{
+    --width: 150px;
+    --border: 1px solid rgba(0, 0, 0, 0.3);
+    --padding: 1rem
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -5,33 +11,33 @@ nav {
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: var(--padding);
 }
 h1 {
     color: darkblue;
 }
 img {
-    width: 150px;
+    width: var(--width);
     height: auto;
-    border: 1px solid black;
-    padding: 2px;
+    border: var(--border);
+    padding: var(--padding);
     box-shadow: 0 0 30px gray;
 }
 p {
-    padding: 0px;
+    padding: 1rem;
 }
 main {
     max-width: 840px;
 }
 main img{
-    width: 150px;
+    width: var(--width);
     height: auto;
 }
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    padding: 1rem;
+    border: var(--border);
+    padding: var(--padding);
     background-color: rgb(223, 111, 46);
     color: #333333;
 }
