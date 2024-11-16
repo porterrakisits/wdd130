@@ -13,7 +13,6 @@
     font-style: normal;
   }
 
-  /* // <uniquifier>: Use a unique and descriptive class name
   // <weight>: Use a value from 100 to 900 */
   
 .roboto-slab-text {
@@ -64,4 +63,15 @@ footer {
 .image-article {
   float: right;
   max-width: 100px;
+  height: auto;
+}
+
+.images-section{
+  max-width: 100rem;
+  height: auto;
+}
+
+.icon {
+  width: 50px;
+  height: auto;
 }
