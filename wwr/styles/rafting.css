@@ -1,0 +1,67 @@
+:root {
+    --primary-color: rgb(55, 79, 118);
+    --secondary-color: rgb(78, 114, 52);
+    --accent-color1: rgb(91, 226, 235);
+    --accent-color2: rgb(171, 78, 104);
+    --heading-font: permanent marker;
+    --text-font: roboto slab;
+}
+
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 100 to 900 */
+  
+.roboto-slab-text {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+a {
+  text-decoration: none;
+}
+
+h1{
+  background-color: var(--secondary-color);
+  position: absolute;
+}
+
+article{
+  position: absolute;
+}
+
+main {
+  background-color: var(--primary-color);
+}
+
+footer {
+  background-color: var(--secondary-color);
+
+}
+
+
+
+
+/* images and icons */
+
+
+.image-article {
+  float: right;
+  max-width: 100px;
+}
