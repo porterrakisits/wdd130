@@ -46,11 +46,14 @@ a {
 h1{
   background-color: var(--secondary-color);
   position: absolute;
+  left: 30%;
 }
 
 article{
   position: absolute;
   background-color: rgb(55, 79, 118, .8);
+  top: 7rem;
+  padding: 20px;
 }
 
 main {
@@ -58,7 +61,7 @@ main {
 }
 
 section {
-  padding: 5rem;
+  padding: 6rem;
 }
 
 footer {
@@ -66,9 +69,6 @@ footer {
 
 }
 
-div {
-  padding: 2rem;
-}
 
 
 
