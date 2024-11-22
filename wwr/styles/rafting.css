@@ -22,15 +22,18 @@
     color: var(--accent-color1);
   }
 
-.hero img {
+.heroimg {
   display: block;
   width: 100%;
   height: auto;
   float: right;
 }
 
-.images-section {
-  width: 300px;
+.adventure-section {
+  width: auto;
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 
@@ -38,6 +41,37 @@
   position: relative;
 }
 
+
+
+
+
+/* ----- HEADER  ----- */
+header {
+  margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	align-items: center;
+	border: 5px solid var(--accent-color2);
+  justify-content: space-around;
+  background-color: var(--accent-color2);
+}
+
+
+.header-nav {
+  display: flex;
+  border: 3px solid var(--accent-color1);
+  justify-content: space-around;
+  text-align: center;
+  background-color: var(--secondary-color);
+}
+
+
+
+
+
+
+
+/* ----- MAIN ----- */
 
 a {
   text-decoration: none;
@@ -62,17 +96,33 @@ main {
 
 section {
   padding: 6rem;
+  border: 5px solid var(--accent-color1);
 }
 
+.adventure-awaits {
+  grid-column: 1/5;
+}
+
+
+
+
+
+/* ----- FOOTER ----- */
 footer {
   background-color: var(--secondary-color);
-
+  border: 5px solid black;
+  display: grid;
+  justify-content: center;
 }
 
 
 
 
 
+
+
+
+/* ----- IMAGES ----- */
 .image-article {
   float: right;
   max-width: 100px;
@@ -80,11 +130,17 @@ footer {
 }
 
 .images-section{
-  max-width: 100rem;
+  width: 150px;
   height: auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
 }
 
 .icon {
   width: 50px;
   height: auto;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr 1fr;
 }
