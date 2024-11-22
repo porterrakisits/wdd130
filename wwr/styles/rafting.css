@@ -33,7 +33,7 @@
   width: auto;
   display: grid;
   justify-content: space-around;
-  grid-template-columns: 1fr 1fr 1fr 1fr fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
 }
 
 
@@ -100,7 +100,7 @@ section {
 }
 
 .adventure-awaits {
-  grid-column: 1/5;
+  grid-column: 1/6;
 }
 
 
