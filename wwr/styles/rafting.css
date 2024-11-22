@@ -33,7 +33,7 @@
   width: auto;
   display: grid;
   justify-content: space-around;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr fr;
 }
 
 
@@ -143,4 +143,9 @@ footer {
   display: grid;
   justify-content: space-between;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+#instagram{
+  width: 80px;
 }
