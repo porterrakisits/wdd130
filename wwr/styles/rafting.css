@@ -116,8 +116,24 @@ section {
   border: 5px solid var(--accent-color1);
 }
 
-.adventure-awaits {
-  grid-column: 1/6;
+.adventure-section {
+  display: grid;
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr 1fr 1fr;  
+  grid-template-areas:
+      "header"
+      "content"
+      "figures";
+  text-align: center;  
+  padding: 20px;  
+}
+
+.adventure-section figure img {
+  display: grid;
+  width: 100%;  
+  max-width: 300px;  
+  height: auto; 
+  align-content: center;
 }
 
 iframe{
@@ -125,6 +141,69 @@ iframe{
   height: auto;
   position: relative;
 }
+
+
+
+
+
+
+
+
+/* -------- TABLE ON TRIPS PAGE ---------- */
+table {
+  border-collapse: collapse;
+  border: 2px solid var(--secondary-color);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  width: 50rem;
+  height: auto;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: 700;
+	 font-style: italic;
+}
+
+thead,
+tfoot {
+  background-color: var(--accent-color2);
+}
+
+thead th {
+	background-color: var(--accent-color2);
+	color: black;
+}
+
+th,
+td {
+  border: 1px solid var(--secondary-color);
+  padding: 8px 10px;
+  
+}
+
+td:last-of-type {
+  text-align: center;
+}
+tbody > tr:nth-of-type(even) {
+  background-color: var(--accent-color1);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
+
+
+
+
+
 
 
 
