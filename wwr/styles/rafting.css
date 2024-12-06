@@ -142,6 +142,7 @@ iframe{
   width: 300px;
   height: auto;
   position: relative;
+  border: 0;
 }
 
 
