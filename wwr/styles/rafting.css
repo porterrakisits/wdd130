@@ -1,7 +1,7 @@
 :root {
     --primary-color: rgb(55, 79, 118);
-    --secondary-color: rgb(78, 114, 52);
-    --accent-color1: rgb(91, 226, 235);
+    --secondary-color: #4E7234;
+    --accent-color1: #C0F2F2;
     --accent-color2: rgb(171, 78, 104);
     --heading-font: permanent marker;
     --text-font: roboto slab;
@@ -11,6 +11,7 @@
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
     font-style: normal;
+    color: rgb(223, 177, 121);
   }
 
   
@@ -51,7 +52,7 @@ header {
 	display: grid;
 	grid-template-columns: 1fr 2fr 1fr;
 	align-items: center;
-	border: 5px solid var(--accent-color2);
+	border: 5px solid black;
   justify-content: space-around;
   background-color: var(--accent-color2);
 }
@@ -59,7 +60,7 @@ header {
 
 .header-nav {
   display: flex;
-  border: 3px solid var(--accent-color1);
+  border: 3px solid black;
   justify-content: space-around;
   text-align: center;
   background-color: var(--secondary-color);
@@ -75,7 +76,7 @@ header {
 
 a {
   text-decoration: none;
-  color: aliceblue;
+  color: var(--accent-color1);
 }
 
 h1{
@@ -114,7 +115,7 @@ main {
 
 section {
   padding: 6rem;
-  border: 5px solid var(--accent-color1);
+  border: 5px solid black;
 }
 
 .adventure-section {
@@ -144,6 +145,10 @@ iframe{
 }
 
 
+p {
+  color: #C0F2F2;
+}
+
 
 
 
@@ -159,6 +164,7 @@ table {
   letter-spacing: 1px;
   width: 50rem;
   height: auto;
+  
 }
 
 caption {
@@ -169,19 +175,17 @@ caption {
 }
 
 thead,
-tfoot {
-  background-color: var(--accent-color2);
-}
 
 thead th {
 	background-color: var(--accent-color2);
-	color: black;
+	color: white;
 }
 
 th,
 td {
   border: 1px solid var(--secondary-color);
   padding: 8px 10px;
+  color: #C0F2F2;
   
 }
 
@@ -189,7 +193,7 @@ td:last-of-type {
   text-align: center;
 }
 tbody > tr:nth-of-type(even) {
-  background-color: var(--accent-color1);
+  background-color: #4E7234;
 }
 
 tfoot th {
