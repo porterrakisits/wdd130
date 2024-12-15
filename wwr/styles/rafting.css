@@ -82,10 +82,18 @@ a {
 h1{
   background-color: var(--secondary-color);
   position: absolute;
-  left: 37.2%;
-  width: 25%;
+  left: 0%;
+  width: 60%;
+  text-align: center;
+  right: 0;
+  margin: 0 auto;
+  top: 15px;
+}
+
+h2{
   text-align: center;
 }
+
 
 article{
   position: absolute;
@@ -98,6 +106,7 @@ article{
 
 form {
   background-color: aliceblue;
+  padding: 20px;
 }
 
 
@@ -124,8 +133,7 @@ section {
 
 .adventure-section {
   display: grid;
-  grid-template-columns: 1fr; 
-  grid-template-rows: 1fr 1fr 1fr;  
+  grid-template-columns: 1fr 1fr; 
   grid-template-areas:
       "header"
       "content"
